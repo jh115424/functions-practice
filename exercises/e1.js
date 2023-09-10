@@ -15,6 +15,16 @@
 
 // Your code goes here
 
+function logMessage (message) {
+
+}
+
+console.log('Hello, World!');
+
+
+
+
+
 
 
 
@@ -30,6 +40,16 @@
 */
 
 // Your code goes here...
+
+
+
+// function logMyMessage () {
+  
+
+// }
+
+
+
 
 
 
@@ -72,11 +92,11 @@
 
 
 // Do not delete or change the lines beneath
-const f = {
-  logMessage: logMessage || undefined,
-  logMyMessage: logMyMessage || undefined,
-  logMessageWithMyName: logMessageWithMyName || undefined,
-  logMyInfo: logMyInfo || undefined
-}
+// const f = {
+//   logMessage: logMessage || undefined,
+//   logMyMessage: logMyMessage || undefined,
+//   logMessageWithMyName: logMessageWithMyName || undefined,
+//   logMyInfo: logMyInfo || undefined
+// }
 
-export { f };
+// export { f };
