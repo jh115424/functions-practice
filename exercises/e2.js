@@ -13,6 +13,18 @@
 // Your function code starts here...
 
 
+
+let area = rectArea(3, 2);
+
+function rectArea(sideA, sideB) {
+
+  return sideA * sideB;
+
+  console.log(area);
+
+
+}
+
 // Use the function you created above to calculate the areas of 3 rooms
 // Assign the results to room1, room2, and room3 variables
 // Data for calculation: room1: 4 by 6, room2: 13 by 3, room3: 4 by 8
@@ -20,6 +32,16 @@
 // Your code goes here:
 
 
+let results = {
+  room1: '4 by 6',
+  room2: '13 by 3',
+  room3: '4 by 8'
+}
+function calculate (room1, room2, room3) {
+
+     return room1 + room2 + room3;
+
+}
 
 /**
  * =============================================================
