@@ -32,16 +32,26 @@ function rectArea(sideA, sideB) {
 // Your code goes here:
 
 
-let results = {
-  room1: '4 by 6',
-  room2: '13 by 3',
-  room3: '4 by 8'
-}
+
+
 function calculate (room1, room2, room3) {
 
-     return room1 + room2 + room3;
+  return room1 * room2 * room3;
+
+
+
+console.log(room1);
+console.log(room2);
+console.log(room3);
+
 
 }
+
+let room1 = 4 * 6;
+let room2 = 13 * 3;
+let room3 = 4 * 8;
+
+
 
 /**
  * =============================================================
