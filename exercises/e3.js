@@ -15,9 +15,25 @@
  */
 
 // Your code goes here...
-function doesArrayIncludeItemsBetweenVals() {
+
+
+function doesArrayIncludeItemsBetweenVals (arr, val1, val2) {
+
+for(let i =0; i > val1 && i < val2; i++) {
+  if(val1 !== val2){
+    return true;
+  }
   
 }
+return false;
+ 
+
+}
+
+
+
+  
+
 
 
 
@@ -37,6 +53,18 @@ function doesArrayIncludeItemsBetweenVals() {
  */
 
 // Your code goes here...
+
+function getValueWithConditionOne() {
+
+}
+
+
+getValueWithConditionTwo => {
+
+
+}
+
+
 
 
 

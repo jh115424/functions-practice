@@ -18,7 +18,7 @@
 
 /** =========================
  * Create a sumOfTwoIntegers(num1, num2) function to compute and return the sum of the two given integers
- * If the two argumants are same, then returns triple their sum.
+ * If the two arguments are same, then returns triple their sum.
  * Example1: sumOfTwoIntegers(13, 14) => 27
  * Example2: sumOfTwoIntegers(12, 12) => 72
  */
