@@ -17,13 +17,17 @@
 // Your code goes here...
 
 function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
-  for (let i = 0; i > val1 && i < val2; i++) {
-    if (val1 !== val2) {
+  for (let i = 0; i < arr.length; i++) {
+    if ( arr[ i ] > val1 && arr[ i ] < val2 ) {
       return true;
-    }
   }
-  return false;
+ 
 }
+return false;
+}
+
+
+
 
 /**
  * ====================================================
@@ -51,27 +55,42 @@ function getValueWithConditionOne(a, b) {
   if (a === 40 && b === 40) {
     return a + b;
   } else return (a + b) * 2;
-}
 
-console.log(getValueWithConditionOne(40, 40));
+  // console.log(getValueWithConditionOne(40, 40));
+  // console.log(getValueWithConditionOne(40, 50));
+  // console.log(getValueWithConditionOne(20, 30));
 
-
-
-
-
-
-getValueWithConditionTwo => {
-   (a, b) => a + b * 2
 }
 
 
 
 
-// let z = x()
 
-// const x = function getValueWithConditionThree (a, b) {
 
-// }
+//2
+const getValueWithConditionTwo = (a, b) => {
+  if (a === 40 && b === 40){
+    return ( a + b );
+  } else ( 40 + 40) * 2;
+
+}
+// console.log(getValueWithConditionTwo(40, 40))
+// console.log(getValueWithConditionTwo(40, 50))
+
+
+
+//3
+let a = 20
+let b = 20
+const getValueWithConditionThree = function (a, b) {
+
+    
+
+    return ( a + b );
+  }
+  
+
+  // console.log(getValueWithConditionThree(20, 20))
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-3"
